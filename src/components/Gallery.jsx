@@ -25,7 +25,7 @@ const images = [
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2, // Time between each child animation
+        staggerChildren: 0.2,  // Time between each child animation
       },
     },
   };
@@ -54,7 +54,7 @@ const images = [
       variants={containerVariants}
       initial="hidden"
       whileInView="show"
-      viewport={{once:true}}
+      // viewport={{once:true}}
     >
       {images.map((image) => (
         <motion.div

@@ -18,7 +18,7 @@ function Services() {
         </h1>
         <div className="sticky top-0  w-full">
           <motion.div
-            className="mt-4 h-[90vh]"
+            className="mt-4 "
             initial={{ opacity: 0.1, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -30,10 +30,10 @@ function Services() {
               <motion.img
                 src={hairB}
                 alt=""
-                className="relative w-[70%] mt-6"
+                className="relative w-[70%] mt-12"
                 initial={{ rotate: 0 }}
                 whileInView={{ rotate: -15 }}
-                transition={{ duration: 1.5, delay: 0.5 }}
+                transition={{ duration: 1.5, delay: 0.3 }}
                 // viewport={{ once: true }}
               />
               <motion.img
@@ -42,11 +42,11 @@ function Services() {
                 className="relative w-[60%] -top-32 rounded-3xl left-36 -rotate-12"
                 initial={{ rotate: 0 }}
                 whileInView={{ rotate: 15 }}
-                transition={{ duration: 1.5, delay: 0.5 }}
+                transition={{ duration: 1.5, delay: 0.3 }}
                 // viewport={{ once: true }}
               />
             </div>
-            <p className="text-[#cc9766] m-2 text-xl relative -top-28">
+            <p className="text-[#cc9766] m-2 text-xl relative -top-24">
               Luxury grooming with expert cuts & styling. Relax, refresh, and
               redefine your look.
             </p>
