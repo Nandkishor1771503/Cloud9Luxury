@@ -14,7 +14,7 @@ function Footer() {
             Experience the best in style and care at <br />
             Cloud 9 Luxury. <br />
             Redefining style for everyone, where beauty is for all <br />
-            📍 Location: Banjarahills <br />
+            📍 Location: Banjara hills Road No.12 <br />
             📞 Call Us: [Phone Number] <br />
             ✉️ Email: [Email Address] <br />
             💬 Follow Us: [Social Media Icons/Links] <br />© 2024 Cloud 9
